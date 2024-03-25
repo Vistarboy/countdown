@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>STOPWATCH APP</title>
+  <link rel="stylesheet" href="countDown.css">
+</head>
+
+<body>
+  <div class="body">
+    <P class="heading">COUNT DOWN</p>
+    <div class="display">
+      <dv class="label-division">
+        <p class="label">HOURS</p>
+        <P class="label">MINUTES</P>
+        <P class="label">SECONDS</P>
+      </dv>
+      <div class="time-display-division">
+        <div class="time hour-division">
+          <p class="hours">0</p>
+        </div>
+        <div class="time minutes-division">
+          <p class="minutes">0</p>
+        </div>
+        <div class="time seconds-division">
+          <p class="seconds">0</p>
+        </div>
+      </div>
+      <div class="input-display">
+        <p class="countDown-title">
+          Enter Time
+        </p>
+        <div class="input-division">
+          <input type="number" class="hours-input inputs" placeholder="HR">
+          <input type="number" class="minutes-input inputs" placeholder="MIN">
+          <input type="number" class="seconds-input inputs" placeholder="SEC">
+        </div>
+        <button class="set-timer-button">
+          SET TIMER
+        </button>
+      </div>
+    </div>
+    <div class="button-set">
+      <button class="start-button">START</button>
+      <button class="save-button">SAVE TIME</button>
+      <button class="reset-button">RESET</button>
+    </div>
+    <div class="saved-time-division">
+      <p class="saved-time-title">SAVED TIME</p>
+      <div class="saved-time-container">
+        <p class="saved-time">1). 0:0:0.0</p>
+      </div>
+    </div>
+  </div>
+  <script src="CountDown.js"></script>
+</body>
+
+</html>
